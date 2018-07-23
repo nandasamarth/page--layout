@@ -1,0 +1,106 @@
+<html>
+
+<head>
+    <title>page layout</title>
+</head>
+
+<style type="text/css">
+
+aside {
+  margin: 10px;
+  background:#D0D3D4;
+  border-radius: 6px;
+  padding: 40px 25px;
+  font: 10px/34px;
+  display: block; 
+  border:1px solid red;
+}
+
+header,footer {
+  text-align: center;
+  clear:both;
+}
+
+div {
+  float:left;
+  width:60%;
+  margin: 10px;
+  background: #D0D3D4;
+  border-radius: 6px;
+  padding: 10px 25px;
+  display: block;
+  font-family: "sans-serif";
+  border:1px solid red;
+}
+
+aside {
+  float:right;
+  width:25%;
+}
+
+summary {
+  display:block;
+
+}
+
+header,footer {
+ margin: 10px;
+  background:#D0D3D4;
+  border-radius: 6px;
+  padding: 1px 25px;
+  font-family: "sans-serif";
+  display: block; 
+  border:1px solid red;
+}
+
+</style>
+
+<body>
+
+ <header>
+    <h1>HTML5 Structrual Elements</h1>
+  </header>
+  
+  <div>
+    <p>Hypertext Markup Language (HTML) is the standard markup language for creating web pages and web applications. With Cascading Style Sheets (CSS) and JavaScript it forms a triad of cornerstone technologies for the World Wide Web.Web browsers receive HTML documents from a web server or from local storage and render them into multimedia web pages. HTML describes the structure of a web page semantically and originally included cues for the appearance of the document.</p>
+    
+    <p> Humans can tell the different content apart, but machines can't — the browser doesn't see the different divs as header, footer, etc. It sees them as different divs. It would be more useful if browsers and screen readers were able to explicitly identify say, the navigation menu so a visually impaired user could find it more easily, or the different news items on a bunch of blogs so they could be easily syndicated in an RSS feed without any extra programming.</p>
+
+<p>Even if you do use extra code to solve some of these problems, you can still only do it reliably for your web sites, as different web developers will use different class and ID names, especially when you consider the international audience — different web developers in different countries will use different languages to write their class and id names.</p>
+<p>It therefore makes a lot of sense to define a consistent set of elements for everyone to use for the common structural blocks that appear on so many web sites, and this is exactly what is defined in HTML5 Structural Elements.</p>       
+  
+ <!-- <aside>-->
+    <h4>New HTML5 Structrual Elements:</h4>
+    <ul>
+      <li>
+        <strong>&lt;header&gt;</strong>: Used to contain the header content of a site.</li>
+      <li>
+        <strong> &lt;footer&gt;</strong>:Contains the footer content of a site.</li>
+      <li>
+        <strong>&lt;nav&gt;</strong>:Contains the navigation menu, or other navigation functionality for the page.</li>
+      <li>
+        <strong>&lt;article&gt;</strong>:Contains a standalone piece of content that would make sense if syndicated as an RSS item, for example a news item.
+      </li>
+      <li>
+      <strong>&lt;section&gt;</strong>:Used to either group different articles into different purposes or subjects, or to define the different sections of a single article.  
+      </li>
+      <li>
+        <strong>&lt;aside&gt;</strong>: Defines a block of content that is related to the main content around it, but not central to the flow of it.
+      </li>       
+        
+    </ul>
+    
+  </div>
+  <!--</aside>-->
+  
+  <aside>
+    <p>Hypertext Markup Language (HTML) is the standard markup language for creating web pages and web applications. With Cascading Style Sheets (CSS) and JavaScript it forms a triad of cornerstone technologies for the World Wide Web.Web browsers receive HTML documents from a web server or from local storage and render them into multimedia web pages. HTML describes the structure of a web page semantically and originally included cues for the appearance of the document.</p>
+  </aside>
+  
+  <footer>
+    <h5>References</h5>
+    <a href="https://www.w3.org/wiki/HTML_structural_elements">https://www.w3.org/wiki/HTML_structural_elements</a>
+  </footer>
+  
+</body>
+</html>
